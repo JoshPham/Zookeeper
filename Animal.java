@@ -15,6 +15,10 @@ public class Animal {
         System.out.println("This animal eats " + food);
     }
 
+    public String getFood() {
+        return food;
+    }
+
     public double getLifeSpan() {
         return avgLifeSpan;
     }
