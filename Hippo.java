@@ -38,6 +38,8 @@ public class Hippo extends Hooved {
             System.out.println("The hippo was able to find a good amount of food which allowed it to\ngain a bit of weight.");
             weight += ((int) (Math.random() * 100) + 300);
         }
+
+        System.out.println();
     }
 
     public void groan() {
